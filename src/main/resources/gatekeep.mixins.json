@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.hugeblank.gatekeep.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+    "ChatReportScreenMixin",
+    "SocialInteractionsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

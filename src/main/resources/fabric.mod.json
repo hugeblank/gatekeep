@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "gatekeep",
+  "version": "${version}",
+  "name": "Gatekeep",
+  "description": "A weighted pressure plate that outputs a signal strength dependent on the amount of players you've reported.",
+  "authors": [
+    "hugeblank"
+  ],
+  "contact": {
+    "repo": "https://github.com/hugeblank/gatekeep"
+  },
+  "license": "MIT",
+  "icon": "assets/gatekeep/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [],
+    "main": [
+      "dev.hugeblank.gatekeep.Gatekeep"
+    ]
+  },
+  "mixins": [
+    "gatekeep.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19.1"
+  }
+}

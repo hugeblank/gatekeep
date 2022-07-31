@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "gatekeep:snitch_pressure_plate"
+  }
+}
